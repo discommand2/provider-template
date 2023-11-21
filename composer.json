@@ -1,0 +1,25 @@
+{
+  "name": "discommand2/provider-template",
+  "description": "A starter template for integrating other LLM providers.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Russell Purinton",
+      "email": "russell.purinton@gmail.com"
+    }
+  ],
+  "support": {
+    "discord": "https://discord.gg/yMs5vgvyV4"
+  },
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "Discommand2\\Provider\\Template\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "version": "2.0.0"
+}
